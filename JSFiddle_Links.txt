@@ -1,0 +1,7 @@
+Early JsFiddle Scripts
+Week 1 and 2 Muck Around: https://jsfiddle.net/JaseL_/wrk81ysp/3/
+YouTube Link Attempt: https://jsfiddle.net/JaseL_/2b1uo6vx/3/
+JavaScript Inline Scripts: https://jsfiddle.net/JaseL_/th9k6pca/13/
+Javascript Calendar: https://jsfiddle.net/JaseL_/8n345vbw/6/
+Date and Time Script: https://jsfiddle.net/JaseL_/103asvkx/
+
