@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<style>
+</style>
+<head>
+    <title>Week7</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id ="app">
+    <custom-article v-bind:content="datacontent"></custom-article>
+  </div>
+  <script>
+   Vue.component('prompt-compo', {
+  template: '<div><p>${message}</p><button @click="memeButton">Click me, fool!</button></div>',
+  delimiters: ['${','}'],
+  data: function(){
+    return {
+      message: 'Click this for dank memes'
+    }
+  },
+  methods: {
+    memeButton: function() {
+      alert('Get Stick Bugged');
+    }
+  }
+});
+
+let vm = new Vue({
+  el:'#app',
+  template: `<prompt-compo/>`
+});
+  </script>
+  </body>
+  </html>
